@@ -1,0 +1,133 @@
+.katalog-tip{
+    display: flex;
+    justify-content: space-around;
+}
+.btn-strelka button{
+    border: none;
+    color:   #444444;
+    font-size: 15px;
+    background-color: #F7F9FB;
+}
+.btn-strelka{
+    width: 241px;
+    height: 30px;
+    border: 1px solid #FAE386;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.katalog-title{
+    text-align: center;
+
+}
+.katalog-title h1{
+    color: #444444;
+    font-size: 40px; 
+}
+.katalog-title h3{
+    color: #444444;
+    font-size: 25px;
+    font-weight: 400; 
+}
+
+.katalog-hero{
+    width: 1600px;
+    background-color: #F7F9FB ;
+    gap: 20px;
+}
+.hero-katalog{
+    height: auto;
+    width: auto;
+    border: 1px solid #FAE386;
+    border-radius: 10px;
+}
+.hero-katalog-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: #444444;
+    font-size: 16px;
+}
+.btn-zakaz{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color:  #FA7878;
+    color: #FFFFFF;
+    font-size: 15px;
+    border: none;
+}
+.katalog-price{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+    color: 
+    #444444;
+}
+.info-price{
+    display: flex;
+    gap: 265px;
+    font-size: 16px;
+    color: #444444;
+    margin-left: 20px;
+}
+.hero-katalog-2{
+    height: 110px;
+    width: 1062px;
+    border: 2px solid #FAE386;
+    border-radius: 10px;
+    
+}
+.info-price-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+}
+.info-price-3{
+    display: flex;
+    gap: 620px;
+    margin-left: 10px;
+}
+.all-katalog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    margin: auto;
+    gap: 40px;
+    margin-top: 100px;
+
+}
+.katalog-info{
+    width: auto;
+    height: auto;
+}    
+.katalog-info p{
+    margin-top: 10px;
+}
+.how-many p{
+    margin-top: 10px;
+}
+.katalog-price-1 h2{
+    margin-right: 100px;
+}
+.katalog-price-1{
+    display: flex;
+}
+.katalog-price-1 h2{
+    margin-right: 135px;
+
+}
+.katalog-price h2{
+    margin-right: 20px;
+}
+
+.how-many-1 p{
+    margin-right: 180px;
+}

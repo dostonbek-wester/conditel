@@ -1,0 +1,164 @@
+.vizitka-head h2{
+    color: #444444;
+    font-size:20px;
+    font-weight: 600;
+}
+.vizitka-head h3{
+    color: #444444;
+    font-size:16px;
+    font-weight: 400;
+}
+.vizitka-info h2{
+    color: #444444;
+    font-size:20px;
+    font-weight: 600;
+}
+.vizitka-info h3{
+    color: #444444;
+    font-size:16px;
+    font-weight: 400;
+}
+.vizitka-info{
+    margin-top: 30px;
+}
+.vizitka-contact{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+.vizitka-contact h2{
+    font-size: 18px;
+    color: #444444;
+    font-weight: 400;
+    width: auto;
+    height: auto;
+}
+.vizitka-contact h3{
+    font-size: 18px;
+    color: #444444;
+    font-weight: 400;
+    width: auto;
+    height: auto;
+}
+.vizitka-hero{
+    background-color: #F7F9FB;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin-top: 70px;
+}
+.vizitka-bottom p{
+    font-size: 20px;
+    color: #444444;
+}
+.botton-vizitka-left{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #444444;
+    gap: 20px;
+}
+
+.botton-vizitka-right{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.botton-vizitka-right h2{
+    font-size: 28px;
+    color: #444444;
+    font-weight: 600
+}
+.vizitka-bnt{
+    width: 183px;
+    height: 48px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FAE386;
+    font-size: 20px;
+    color: #444444;
+}
+.vizitka-botton-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.number-btn{
+    width: 183px;
+    height: 48px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #ffff;
+    background-color: #FA7878;
+}
+.vizitka-number{
+    margin-top: 100px;
+}
+.vizitka-number h2{
+    font-size: 20px;
+    font-weight: 400;
+}
+.vizitka-head-hero{
+    display: flex;
+    background-color:#F7F9FB ;
+    width: 1600px;
+    height: 700px;
+    
+}
+.vizitka-hero-right img{
+    margin-top: 122px;
+    height: 576px;
+    width: 900px;
+    object-fit: contain;
+}
+
+
+.left-button{
+    width: auto;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.right-button{
+    width: auto;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.center-button{
+    width: 180px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+  
+
+
+.btn-viz{
+    background-color: #FAE386 !important;
+    color: #000000 !important;
+}
+
+.btn-viz-2{
+    background-color: #fc3030 !important;
+    color: #ffffff !important;
+}

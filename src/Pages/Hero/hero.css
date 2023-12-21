@@ -1,0 +1,145 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.top-site{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #535f6e;
+}
+
+
+.btn_hero{
+    width: 200px !important;
+    height: 100% !important;
+    font-size: 12px !important;
+    background-color: #535f6e;
+    color: white !important;
+}
+
+
+.btn_hero:hover{
+    width: 200px !important;
+    height: 100% !important;
+    font-size: 12px !important;
+    background-color: #535f6e;
+    color: black !important;
+}
+
+.btn_box{
+    width: 200px ;
+    height: 100% ;
+    font-size: 12px ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    border-radius: 0px 0px 10px 10px;
+}
+.btn_box:hover{
+    background-color: #FAE386;
+}
+.btn_box:hover.btn_box::after{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #FAE386;
+    transform: rotate(45deg);
+    bottom: -9px;
+    z-index: 1;
+}
+
+
+.left-site{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+
+.title_hero{
+    color: white;
+}
+
+.btn_zakaz{
+    background-color: #FA7878 !important;
+    color: white !important;
+}
+
+.check-icon{
+    color: gold !important;
+}
+
+.ptijka{
+   width: 400px;
+   height: 100px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.ptijka-1{
+    border-radius: 5px ;
+    color: white;
+    width: 190px;
+    display: flex;
+}
+
+.detail{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: flex-start;
+    font-size: 10px;
+}
+
+.box-1{
+    width: 150px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    flex-direction: column;
+    color: white;
+    font-size: 12px;
+}
+.box-1 p{
+    text-align: center;
+}
+.son{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    margin-top: 0px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gold;
+    color: white;
+    flex-direction: column;
+    font-size: 8px;
+    padding: 5px;
+}
+.son h3{
+    text-align: center;
+}
+.left-right-site-container{
+    width: 100%;
+    height: 100%;
+    background-color: #586575;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

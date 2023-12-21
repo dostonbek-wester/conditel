@@ -1,0 +1,46 @@
+.footer-hero{
+    display: flex;
+    justify-content: space-around;
+    background-color: #424F5F;
+    height: 443px;
+    align-items: center;
+    width:1600px;
+    
+}
+.left-top{
+    display: flex;
+    gap: 30px;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+.chislo{
+    font-size: 25px;
+    color: #FFFFFF;
+}
+.footer-center{
+    text-align: center;
+    font-size: 25px;
+    color: #FFFFFF;;
+}
+.footer-right p{
+    font-size: 23px;
+    font-weight: 400;
+}
+.footer-right h2{
+    font-size: 30px;
+}
+.footer-right h3{
+    font-size: 25px;
+}
+.footer-bottom{
+    height: 68px;
+    width: 365;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: #FAE386;
+    border: none;
+    color:#444444;
+}
+.footer-right {
+    color: #FFFFFF;
+}
